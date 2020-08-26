@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/liberty7"
+    tools:context=".SignUp1">
+
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/lock"
+    android:layout_gravity="center"
+    android:layout_marginTop="150dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liberty UI Kit"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It quick and easy way to create \nmobile apps that UI designers \nand developers trust"
+        android:textColor="#e7ecef"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/v1">
+
+        </android.support.v4.view.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/view"
+            app:ci_drawable="@drawable/ic_dot"
+            app:ci_drawable_unselected="@drawable/ic_dot"
+            app:ci_height="8dp"
+            app:ci_width="8dp"
+            android:backgroundTint="@android:color/white"/>
+
+
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_ract"
+        android:text="Sign Up"
+        android:paddingTop="13dp"
+        android:paddingBottom="15dp"
+        android:textSize="18sp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mediatransperent_ract"
+        android:text="Login"
+        android:paddingTop="13dp"
+        android:paddingBottom="15dp"
+        android:textSize="18sp"
+        android:paddingRight="58dp"
+        android:paddingLeft="58dp"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="#ffffff"/>
+    </FrameLayout>
+
+
+</LinearLayout>

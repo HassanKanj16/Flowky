@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:tint="#b7c4cb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/left_arrow"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1c252a"
+        android:textSize="17dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:text="Shopping"/>
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/filter"/>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/shopping_cart_01"/>
+
+</LinearLayout>
+
+<View
+android:layout_width="match_parent"
+android:layout_height="0.7dp"
+android:layout_marginTop="10dp"
+android:background="#d0d8e8"/>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Profile"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo" />
+
+        <include layout="@layout/toolbar_profile"/>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/tick" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/nyimg2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="bottom|center"
+                android:scaleType="fitXY"
+                android:src="@drawable/group"
+                app:riv_corner_radius="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/msg" />
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beatrice Maxwell"
+        android:textColor="#1c252a"
+        android:textSize="20sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location"
+            android:layout_marginRight="15dp"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slovakia"
+            android:textColor="#b7c4cb"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#d4dce1" />
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabTextColor="#b7c4cb"
+        app:tabSelectedTextColor="#1c252a"
+        app:tabIndicatorColor="#0091ea"
+        app:tabTextAppearance="@style/MyMenuTextAppearance1"
+        android:id="@+id/tablayout1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#d4dce1" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpager1"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="40dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#d4dce1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="loading"
+            android:textColor="#b7c4cb"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/loading"
+            android:layout_marginRight="10dp"/>
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="content"
+            android:textColor="#b7c4cb"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

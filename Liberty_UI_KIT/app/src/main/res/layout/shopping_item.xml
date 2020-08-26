@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:background="@drawable/rect_shopping">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="95dp"
+        android:id="@+id/shoppingimg"
+        android:src="@drawable/taittinger"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="$62.35"
+        android:textSize="15sp"
+        android:id="@+id/shoppingtext"
+        android:layout_marginBottom="8dp"
+        android:textColor="#758692"/>
+
+</LinearLayout>
+

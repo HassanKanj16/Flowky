@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f4f8fa"
+    tools:context=".NY_Times_News">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/nightseen">
+        <include layout="@layout/toolbar_ny_news"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/news1"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NY Times News"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:textSize="26sp"
+                android:paddingRight="53dp"
+                android:paddingLeft="53dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#ffffff"/>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_ract"
+                android:text="Follow"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"/>
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabTextColor="#b7c4cb"
+        app:tabSelectedTextColor="#1c252a"
+        app:tabIndicatorColor="#0091ea"
+        android:background="#ffffff"
+        app:tabTextAppearance="@style/MyMenuTextAppearance1"
+        android:id="@+id/tablayout1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d4dce1"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpager1"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="43dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_alignParentBottom="true">
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="loading"
+        android:textColor="#b7c4cb"/>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/loading"
+        android:layout_marginRight="10dp"/>
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="content"
+        android:textColor="#b7c4cb"/>
+
+
+</LinearLayout>
+
+</RelativeLayout>

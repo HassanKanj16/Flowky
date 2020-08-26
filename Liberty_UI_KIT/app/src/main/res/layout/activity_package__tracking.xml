@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Package_Tracking"
+    android:background="#ffffff">
+
+    <include layout="@layout/toolbar_package_tracking"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp">
+
+   <ExpandableListView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:groupIndicator="@null"
+       android:id="@+id/expandable">
+
+   </ExpandableListView>
+
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide"
+            android:layout_marginRight="20dp"
+            android:textColor="#0091ea"
+            android:textSize="17sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.9dp"
+        android:background="#d0d8e8"/>
+
+<customfonts.MyTextView_Roboto_Regular
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Support"
+    android:textColor="#1c252a"
+    android:layout_marginTop="150dp"
+    android:gravity="center|bottom"
+    android:layout_marginLeft="80dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="17dp"
+    android:layout_marginRight="80dp"
+    android:background="@drawable/support_ract"
+    android:textSize="17sp"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "774751236381",
+    "firebase_url": "https://cinemagraphs-c7def.firebaseio.com",
+    "project_id": "cinemagraphs-c7def",
+    "storage_bucket": "cinemagraphs-c7def.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774751236381:android:116644fa7f9cb39af2f1f4",
+        "android_client_info": {
+          "package_name": "com.example.cinemagraphs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774751236381-4v0e96kclirpg4jmh560sgj2gp3np3tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZyCeqST31j3hwShPLHBD863whUGQ_VZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774751236381-4v0e96kclirpg4jmh560sgj2gp3np3tk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

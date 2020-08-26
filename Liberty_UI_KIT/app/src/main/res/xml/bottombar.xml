@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_flame"
+        iconOnly="true" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_library"
+        iconOnly="true" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_channels"
+        iconOnly="true"/>
+    <tab
+        id="@+id/tab_nearby1"
+        icon="@drawable/ic_playlist1"
+        iconOnly="true" />
+    <tab
+        id="@+id/tab_friends2"
+        icon="@drawable/ic_filter1"
+        iconOnly="true" />
+</tabs>

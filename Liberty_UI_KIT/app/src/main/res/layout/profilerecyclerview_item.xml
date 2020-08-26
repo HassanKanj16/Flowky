@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll1">
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A City Living\n Under the \n Shadow"
+        android:textColor="#1c252a"
+        android:textSize="16sp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp"
+        android:id="@+id/booktext"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="40dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/rbcimg"
+            android:id="@+id/bookimg"
+            android:layout_marginRight="10dp"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBC News"
+            android:textColor="#0091ea"
+            android:id="@+id/booktext1"
+            android:textSize="13sp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

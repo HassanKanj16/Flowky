@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+
+    <customfonts.MyTextView_Roboto_Black
+        android:id="@+id/lblListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 7047983"
+        android:textSize="20sp"
+        android:textColor="#1c252a"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide"
+        android:id="@+id/hide"
+        android:layout_marginRight="20dp"
+        android:textColor="#0091ea"
+        android:textSize="17sp"/>
+</LinearLayout>
