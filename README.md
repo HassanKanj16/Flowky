@@ -25,7 +25,7 @@ Social media app for cinemagraphs
 
 ###### *Customize UI and add logo*
 
-#### Screens
+### Screens
 
 **SplashScreen.dart** - checks if user already logged in at launch
 
@@ -41,7 +41,7 @@ Social media app for cinemagraphs
 
 ###### *Profile.dart - view of profile*
 
-#### Elements
+### Elements
 
 **TextBox.dart** - defines textbox with rounded corners
 
@@ -57,14 +57,16 @@ Social media app for cinemagraphs
 
 ## Video processing
 
-**Stabilization** - using Lukas-Kanade (Baker, 2004)
+**Stabilization** - using Lukas-Kanade (Baker, 2004) and automatic edge cropping
 
 **Automatic motion mask** - using SSD matrix, standard deviation, and feathering
 
-**Looping** - using Euclidian difference and triangle inequality
+**Looping** - using Euclidian difference and triangle inequality, frame interpolating using two way SIFT and map scaling
 
 ###### *Todo*
 
 ###### *Adjust C++ to work with Flutter*
 
 ###### *Optimize for ARM Neon, add SIMD where needed, multithreading*
+
+###### *Motion region KLT tracking?*
