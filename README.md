@@ -13,15 +13,15 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *        Authentication with email*
+###### *-Authentication with email*
 
-###### *        Adjust validator*
+###### *-Adjust validator*
 
-###### *        Functionality for buttons and connect to database*
+###### *-Functionality for buttons and connect to database*
 
-###### *        Integration with Instagram*
+###### *-Integration with Instagram*
 
-###### *        Customize UI and add logo*
+###### *-Customize UI and add logo*
 
 ### Screens
 
@@ -35,11 +35,11 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *Highlight.dart - view for adjusting motion mask, with paint and erase functions*
+###### *-Highlight.dart - view for adjusting motion mask, with paint and erase functions*
 
-###### *Loop.dart - view for choosing starting point and one of suggested looping points*
+###### *-Loop.dart - view for choosing starting point and one of suggested looping points*
 
-###### *Profile.dart - view of profile*
+###### *-Profile.dart - view of profile*
 
 ### Elements
 
@@ -53,11 +53,11 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *Customized Button*
+###### *-Customized Button*
 
-###### *Add bar showing tilt and jitter limit during capture*
+###### *-Add bar showing tilt and jitter limit during capture*
 
-###### *Fix appearance of progress bar*
+###### *-Fix appearance of progress bar*
 
 ## Video processing
 
@@ -69,8 +69,8 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *Adjust C++ to work with Flutter*
+###### *-Adjust C++ to work with Flutter*
 
-###### *Optimize for ARM Neon, add SIMD where needed, multithreading*
+###### *-Optimize for ARM Neon, add SIMD where needed, multithreading*
 
-###### *Motion region KLT tracking?*
+###### *-Motion region KLT tracking?*
