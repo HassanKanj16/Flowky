@@ -3,6 +3,8 @@ Social media app for cinemagraphs
 
 ## Mobile app
 
+**CMakeLists.txt** - statically links OpenCV and C++ video processing scripts
+
 **LIBERTY_UI_KIT** - UI used for the login page
 
 **main.dart** - file to specify starting screen (SplashScreen() or MyHomePage())
