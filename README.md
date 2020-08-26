@@ -3,7 +3,7 @@ Social media app for cinemagraphs
 
 ## Mobile app
 
-**CMakeLists.txt** - statically links OpenCV and C++ video processing scripts
+**CMakeLists.txt** - statically links OpenCV (OpenCV-android-sdk) and C++ video processing scripts (ios/CppScripts)
 
 **LIBERTY_UI_KIT** - UI used for the login page
 
