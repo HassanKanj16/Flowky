@@ -13,19 +13,19 @@ Social media app for cinemagraphs
 
 **native-flowky** - Module for integration with C++ code
 
-*Todo*
+######*Todo*
 
-*Authentication with email*
+######*Authentication with email*
 
-*Adjust validator*
+######*Adjust validator*
 
-*Functionality for buttons and connect to database*
+######*Functionality for buttons and connect to database*
 
-*Integration with Instagram*
+######*Integration with Instagram*
 
-*Customize UI and add logo*
+######*Customize UI and add logo*
 
-### Screens
+####Screens
 
 **SplashScreen.dart** - checks if user already logged in at launch
 
@@ -33,15 +33,15 @@ Social media app for cinemagraphs
 
 **Feed.dart** - main view
 
-*Todo*
+######*Todo*
 
-*Highlight.dart - view for adjusting motion mask, with paint and erase functions*
+######*Highlight.dart - view for adjusting motion mask, with paint and erase functions*
 
-*Loop.dart - view for choosing starting point and one of suggested looping points*
+######*Loop.dart - view for choosing starting point and one of suggested looping points*
 
-*Profile.dart - view of profile*
+######*Profile.dart - view of profile*
 
-### Elements
+#### Elements
 
 **TextBox.dart** - defines textbox with rounded corners
 
@@ -49,11 +49,11 @@ Social media app for cinemagraphs
 
 **Player.dart** - video player
 
-*Todo*
+######*Todo*
 
-*Buttons for add friend*
+######*Buttons for add friend*
 
-*Fix appearance of progress bar*
+######*Fix appearance of progress bar*
 
 ## Video processing
 
