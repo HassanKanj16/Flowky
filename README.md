@@ -3,35 +3,35 @@ Social media app for cinemagraphs
 
 ## Mobile app
 
-###### **LIBERTY_UI_KIT** - UI used for the login page
+**LIBERTY_UI_KIT** - UI used for the login page
 
-###### **main.dart** - file to specify starting screen (SplashScreen() or MyHomePage())
+**main.dart** - file to specify starting screen (SplashScreen() or MyHomePage())
 
-###### **login.dart** - authentication with Firebase
+**FormValidator.dart** - verifies email and password are in correct format
 
-###### **FormValidator.dart** - verifies email and password are in correct format
+**native-flowky** - Module for integration with C++ code
 
-###### **native-flowky** - Module for integration with C++ code
+###### *Todo*
 
-######## *Todo*
+###### *Authentication with email*
 
-######## *Authentication with email*
+###### *Adjust validator*
 
-######## *Adjust validator*
+###### *Functionality for buttons and connect to database*
 
-######## *Functionality for buttons and connect to database*
+###### *Integration with Instagram*
 
-######## *Integration with Instagram*
-
-######## *Customize UI and add logo*
+###### *Customize UI and add logo*
 
 ### Screens
 
-**SplashScreen.dart** - checks if user already logged in at launch
+**SplashScreen.dart** - checks if user already logged in at launch, decides which screen to open
 
 **Camera.dart** - camera view
 
 **Feed.dart** - main view
+
+**login.dart** - login view with authentication using Firebase
 
 ###### *Todo*
 
