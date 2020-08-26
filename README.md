@@ -13,7 +13,7 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *-Authentication with email*
+###### *  -Authentication with email*
 
 ###### *-Adjust validator*
 
