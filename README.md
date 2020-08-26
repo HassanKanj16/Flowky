@@ -13,15 +13,15 @@ Social media app for cinemagraphs
 
 ###### *Todo*
 
-###### *  -Authentication with email*
+###### *        Authentication with email*
 
-###### *-Adjust validator*
+###### *        Adjust validator*
 
-###### *-Functionality for buttons and connect to database*
+###### *        Functionality for buttons and connect to database*
 
-###### *-Integration with Instagram*
+###### *        Integration with Instagram*
 
-###### *-Customize UI and add logo*
+###### *        Customize UI and add logo*
 
 ### Screens
 
