@@ -47,11 +47,15 @@ Social media app for cinemagraphs
 
 **ProgressBar.dart** - used for scoring people's posts, rounded corners
 
+**RecordButton.dart** - shows duration during video capture
+
 **Player.dart** - video player
 
 ###### *Todo*
 
-###### *Buttons for add friend*
+###### *Customized Button*
+
+###### *Add bar showing tilt and jitter limit during capture*
 
 ###### *Fix appearance of progress bar*
 
