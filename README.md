@@ -24,6 +24,7 @@ Social media app for cinemagraphs
 ###### *-Customize UI and add logo*
 
 
+
 ### Screens
 
 **SplashScreen.dart** - checks if user already logged in at launch, decides which screen to open
@@ -43,6 +44,7 @@ Social media app for cinemagraphs
 ###### *-Profile.dart - view of profile*
 
 
+
 ### Elements
 
 **TextBox.dart** - defines textbox with rounded corners
@@ -60,6 +62,7 @@ Social media app for cinemagraphs
 ###### *-Add bar showing tilt and jitter limit during capture*
 
 ###### *-Fix appearance of progress bar*
+
 
 
 
