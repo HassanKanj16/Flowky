@@ -83,3 +83,5 @@ Social media app for cinemagraphs
 ###### *-Optimize for ARM Neon, add SIMD where needed, multithreading*
 
 ###### *-Motion region KLT tracking?*
+
+###### *-Rolling shutter correction?*
