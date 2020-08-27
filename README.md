@@ -85,3 +85,5 @@ Social media app for cinemagraphs
 ###### *-Motion region KLT tracking?*
 
 ###### *-Rolling shutter correction?*
+
+C++ Project using State design pattern
