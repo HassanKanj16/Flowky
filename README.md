@@ -21,7 +21,7 @@ Social media app for cinemagraphs
 
 ###### *-Functionality for buttons and connect to database*
 
-###### *-Integration with Instagram*
+###### *-Integration with Instagram and points system*
 
 ###### *-Customize UI and add logo*
 
