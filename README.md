@@ -3,6 +3,10 @@ Social media app for cinemagraphs
 
 ## Mobile app
 
+Design options:
+
+![Design](https://postimg.cc/QV5pDH04)
+
 **CMakeLists.txt** - statically links OpenCV (OpenCV-android-sdk) and C++ video processing scripts (ios/CppScripts)
 
 **LIBERTY_UI_KIT** - UI used for the login page
@@ -87,3 +91,6 @@ Social media app for cinemagraphs
 ###### *-Rolling shutter correction?*
 
 C++ Project using State design pattern
+
+Simplified class hierarchy:
+![class hierarchy](https://postimg.cc/NypfW259)
