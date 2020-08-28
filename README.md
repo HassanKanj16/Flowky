@@ -5,7 +5,7 @@ Social media app for cinemagraphs
 
 Design options:
 
-![Design](https://postimg.cc/QV5pDH04)
+![Design](https://i.postimg.cc/tRvDh6Pj/ezgif-com-video-to-gif.gif)
 
 **CMakeLists.txt** - statically links OpenCV (OpenCV-android-sdk) and C++ video processing scripts (ios/CppScripts)
 
@@ -93,4 +93,4 @@ Design options:
 C++ Project using State design pattern
 
 Simplified class hierarchy:
-![class hierarchy](https://postimg.cc/NypfW259)
+![class hierarchy](https://i.postimg.cc/FRQdkjvZ/Capture.png)
