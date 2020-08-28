@@ -74,7 +74,7 @@ Design options:
 
 ## Video processing
 
-**Stabilization** - using Lukas-Kanade (Baker, 2004) and automatic edge cropping
+**Stabilization** - using Lukas-Kanade (Baker, 2004), utomatic edge cropping using perspective transform
 
 **Automatic motion mask** - using SSD matrix, standard deviation, and feathering
 
