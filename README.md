@@ -1,9 +1,9 @@
 # Flowky
 Social media app for cinemagraphs
+flowky.app
 
 ## Mobile app
-
-Design options:
+Old design (New design on website):
 
 <img src="https://i.postimg.cc/tRvDh6Pj/ezgif-com-video-to-gif.gif" width="400">
 
@@ -16,19 +16,6 @@ Design options:
 **FormValidator.dart** - verifies email and password are in correct format
 
 **native-flowky** - Module for integration with C++ code
-
-###### *Todo*
-
-###### *-Authentication with email*
-
-###### *-Adjust validator*
-
-###### *-Functionality for buttons and connect to database*
-
-###### *-Integration with Instagram and points system*
-
-###### *-Customize UI and add logo*
-
 
 
 ### Screens
@@ -45,11 +32,6 @@ Design options:
 
 ###### *-Highlight.dart - view for adjusting motion mask, with paint and erase functions*
 
-###### *-Loop.dart - view for choosing starting point and one of suggested looping points*
-
-###### *-Profile.dart - view of profile*
-
-
 
 ### Elements
 
@@ -60,15 +42,6 @@ Design options:
 **RecordButton.dart** - shows duration during video capture
 
 **Player.dart** - video player
-
-###### *Todo*
-
-###### *-Customized Button*
-
-###### *-Add bar showing tilt and jitter limit during capture*
-
-###### *-Fix appearance of progress bar*
-
 
 
 
@@ -82,13 +55,12 @@ Design options:
 
 ###### *Todo*
 
-###### *-Adjust C++ to work with Flutter*
+###### *-Complete rest of C++ bindings*
 
-###### *-Optimize for ARM Neon, add SIMD where needed, multithreading*
+###### *-Rolling shutter correction*
 
-###### *-Motion region KLT tracking?*
+###### *-Add functions being tested*
 
-###### *-Rolling shutter correction?*
 
 C++ Project using State design pattern
 
