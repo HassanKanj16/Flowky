@@ -3,9 +3,6 @@ Social media app for cinemagraphs
 flowky.app
 
 ## Mobile app
-Old design (New design on website):
-
-<img src="https://i.postimg.cc/tRvDh6Pj/ezgif-com-video-to-gif.gif" width="400">
 
 **CMakeLists.txt** - statically links OpenCV (OpenCV-android-sdk) and C++ video processing scripts (ios/CppScripts)
 
